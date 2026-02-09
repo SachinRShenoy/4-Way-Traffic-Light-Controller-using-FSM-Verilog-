@@ -10,6 +10,24 @@ A synthesizable **4-way traffic light controller** implemented using a **Finite 
 
 ---
 
+## Traffic-Light-Controller-FSM
+```
+│
+├── src/
+│   └── Traffic_4way.v
+│
+├── tb/
+│   └── tb_Traffic_4way.v
+│
+├── docs/
+│   ├── README.md
+│   ├── FSM_Diagram.png    
+│   └── Timing_Table.png   
+│
+└── waves/
+      └── traffic_fsm.png    (screenshot from EPWave)
+```
+
 ## 📋 Project Overview
 
 This project models a standard road intersection (North, East, South, West). The controller guarantees:
